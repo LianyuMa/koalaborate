@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LianyuMa/koalaborate.git"
   },
+  "bugs": "https://github.com/LianyuMa/koalaborate/issues",
   "author": "Lianyu Ma",
   "license": "MIT",
   "bugs": {
@@ -18,7 +19,10 @@
   "homepage": "https://github.com/LianyuMa/koalaborate#readme",
   "devDependencies": {
     "eslint-config-airbnb": "^9.0.1",
-    "eslint-plugin-react": "^5.1.1"
+    "eslint-plugin-react": "^5.1.1",
+    "mocha": "^2.5.3",
+    "should": "^9.0.0",
+    "supertest": "^1.2.0"
   },
   "dependencies": {
     "koa": "^1.2.0"
