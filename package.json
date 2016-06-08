@@ -1,0 +1,26 @@
+{
+  "name": "koalaborate",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LianyuMa/koalaborate.git"
+  },
+  "author": "Lianyu Ma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LianyuMa/koalaborate/issues"
+  },
+  "homepage": "https://github.com/LianyuMa/koalaborate#readme",
+  "devDependencies": {
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-react": "^5.1.1"
+  },
+  "dependencies": {
+    "koa": "^1.2.0"
+  }
+}
