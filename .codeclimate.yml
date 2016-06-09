@@ -10,6 +10,10 @@ engines:
       - php
   eslint:
     enabled: true
+    # ... 06082016 ignore Generator function parsing error
+    exclude_fingerprints:
+      - 45e3b96f0beba6532621ae32d82cdb84
+    # ... endof 06082016
   fixme:
     enabled: true
 ratings:
